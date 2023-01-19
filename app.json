@@ -1,0 +1,108 @@
+{
+	"expo": {
+		"name": "Smart-ed",
+		"slug": "smart-ed",
+		"owner": "djalovic.miljan",
+		"version": "2.4.55",
+		"orientation": "portrait",
+		"icon": "./assets/smarted-logo.png",
+		"privacy": "public",
+		"userInterfaceStyle": "light",
+		"splash": {
+			"image": "./assets/smartedSplash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"enabled": false
+		},
+		"notification": {
+			"iosDisplayInForeground": true
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"bundleIdentifier": "com.rs.smarted",
+			"buildNumber": "2",
+			"userInterfaceStyle": "light",
+			"config": {
+				"usesNonExemptEncryption": false
+			},
+			"usesIcloudStorage": true,
+			"infoPlist": {
+				"NSPhotoLibraryUsageDescription": "Allow $(PRODUCT_NAME) to access your photos.",
+				"NSPhotoLibraryAddUsageDescription": "Allow $(PRODUCT_NAME) to save photos.",
+				"NSLocationWhenInUseUsageDescription": "This app needs access to location when open."
+			}
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/smarted-logo-android.png",
+				"backgroundColor": "#FFFFFF"
+			},
+			"package": "rs.smarted",
+			"versionCode": 2455,
+			"googleServicesFile": "./google-services-smart-ed.json",
+			"userInterfaceStyle": "light",
+			"permissions": [
+				"android.permission.READ_EXTERNAL_STORAGE",
+				"android.permission.WRITE_EXTERNAL_STORAGE",
+				"android.permission.ACCESS_MEDIA_LOCATION",
+				"android.permission.ACCESS_NETWORK_STATE",
+				"android.permission.ACCESS_WIFI_STATE",
+				"android.permission.CAMERA",
+				"android.permission.FOREGROUND_SERVICE",
+				"android.permission.INTERNET",
+				"android.permission.MANAGE_DOCUMENTS",
+				"android.permission.MODIFY_AUDIO_SETTINGS",
+				"android.permission.READ_APP_BADGE",
+				"android.permission.READ_CALENDAR",
+				"android.permission.READ_CONTACTS",
+				"android.permission.READ_INTERNAL_STORAGE",
+				"android.permission.READ_PHONE_STATE",
+				"android.permission.RECEIVE_BOOT_COMPLETED",
+				"android.permission.RECORD_AUDIO",
+				"android.permission.SYSTEM_ALERT_WINDOW",
+				"android.permission.USE_BIOMETRIC",
+				"android.permission.USE_FINGERPRINT",
+				"android.permission.VIBRATE",
+				"android.permission.WAKE_LOCK",
+				"android.permission.WRITE_CALENDAR",
+				"android.permission.WRITE_SETTINGS"
+			]
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		},
+		"extra": {
+			"appName": "SMARTED",
+			"eas": {
+				"projectId": "2258fcc4-ebca-43f7-ba7c-57178fbb3a7a"
+			},
+			"apiBaseUrl": "process.env.API_BASE_URL",
+			"s3BaseUrl": "process.env.S3_BASE_URL"
+		},
+		"plugins": [
+			[
+				"expo-media-library",
+				{
+					"photosPermission": "Allow $(PRODUCT_NAME) to access your photos.",
+					"savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos.",
+					"isAccessMediaLocationEnabled": "true"
+				}
+			],
+			[
+				"expo-build-properties",
+				{
+					"android": {
+						"compileSdkVersion": 31,
+						"targetSdkVersion": 31,
+						"buildToolsVersion": "31.0.0"
+					},
+					"ios": {
+						"deploymentTarget": "13.0"
+					}
+				}
+			]
+		]
+	}
+}

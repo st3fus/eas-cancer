@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "297874388754",
+    "project_id": "smarted-31bd8",
+    "storage_bucket": "smarted-31bd8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297874388754:android:b6bdcfc81e7fa4e51aa5cb",
+        "android_client_info": {
+          "package_name": "rs.smarted"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297874388754-intq49j0hs8hn33cr8jbbr80a111nju8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApzzuKewlV24d61aTe-GI6vOEgWX5mNbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297874388754-intq49j0hs8hn33cr8jbbr80a111nju8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

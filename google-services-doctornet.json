@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "764702702674",
+    "project_id": "doctornet-9a8ed",
+    "storage_bucket": "doctornet-9a8ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764702702674:android:a2a4cbbbd943c56772338b",
+        "android_client_info": {
+          "package_name": "rs.doctornet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764702702674-jurqvm94fdeq7rqo34kp74jn1kvfb6n5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-MthjssI4plHesKgfxaV_LrwK3-hV_AM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764702702674-jurqvm94fdeq7rqo34kp74jn1kvfb6n5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

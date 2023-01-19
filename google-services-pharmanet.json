@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "493745526135",
+    "project_id": "pharmanet-v2",
+    "storage_bucket": "pharmanet-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493745526135:android:6b1df37f9335629f607d72",
+        "android_client_info": {
+          "package_name": "rs.pharmanet.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493745526135-t6m3tkj9a1u8q1mnjvqkbdukp7snlaee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0vtAAkKNn2TnD3g8DmPygbTvCyHBsZbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493745526135-t6m3tkj9a1u8q1mnjvqkbdukp7snlaee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
